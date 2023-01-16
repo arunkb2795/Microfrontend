@@ -11,11 +11,12 @@ module.exports = {
       template: "./public/index.html",
     }),
     new ModuleFederationPlugin({
-      name: 'products',
-      filename: 'remoteEntry.js',
+      name: "products",
+      filename: "remoteEntry.js",
       exposes: {
-        './ProductIndex':'./src/index',
-      }
+        "./ProductIndex": "./src/bootstrap",
+      },
+      shared: ["faker"],
     }),
   ],
 };
