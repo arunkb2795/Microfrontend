@@ -15,7 +15,7 @@ export default function App() {
         <div>
           <Header />
           <MarketingApp />
-          <div>Hi</div>
+          <div>Hi.</div>
         </div>
       </BrowserRouter>
     </StylesProvider>
