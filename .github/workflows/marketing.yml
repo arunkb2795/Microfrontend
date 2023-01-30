@@ -3,7 +3,7 @@ name: deploy-marketing
 on:
   push:
     branches:
-      - Auth
+      - CI_CD_flow
     paths:
       - 'packages/marketing/**'
 
