@@ -3,7 +3,7 @@ name: deploy-auth
 on:
   push:
     branches:
-      - CI_CD_flow
+      - Auth
     paths:
       - 'packages/auth/**'
 
